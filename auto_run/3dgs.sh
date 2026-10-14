@@ -4,7 +4,7 @@ cd ~
 
 ./fix.sh
 
-cd ~/algos/gaussian_splatting
+cd ~/algos/gaussian-splatting
 
 source_path=/mnt/d/CJM/datasets/
 model_path=/mnt/d/CJM/eval_out/3dgs/
