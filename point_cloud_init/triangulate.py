@@ -229,24 +229,33 @@ def process_reference(scene, i, nbrs, feats, args):
     inv = np.linspace(1.0 / dmin, 1.0 / dmax, args.n_depths)
     depths_all = 1.0 / inv  # increasing with the sample index
 
-    # free-space constraint: only search in front of the known surface seen through this pixel
+    # free-space constraint (see --free_space):
+    #   1 = truncate: only search in front of the known surface seen through this pixel
+    #   2 = reject:   search the full range, drop the point if its best depth is not in front of it
     if args.free_space:
         z_bg = feats["surf"][i].lookup(xy[:, 0] + 0.5, xy[:, 1] + 0.5).astype(np.float64)
-        d_lim = np.minimum(dmax, args.front_ratio * z_bg)
+        front_lim = args.front_ratio * z_bg  # +inf where the background is unknown
+    else:
+        front_lim = np.full(len(xy), np.inf)
+    if args.free_space == 1:
+        d_lim = np.minimum(dmax, front_lim)
         n_allow = np.searchsorted(depths_all, d_lim, side="right")  # samples [0, n_allow) are allowed
     else:
         d_lim = np.full(len(xy), dmax)
         n_allow = np.full(len(xy), args.n_depths)
     keep_c = n_allow >= args.min_free_samples
-    stats = dict(cand=len(xy), cand_free=int(keep_c.sum()), samples=0)
+    if args.free_space == 2:
+        # nothing can be accepted where the free space in front of the surface is shorter than min_free_samples
+        keep_c &= np.searchsorted(depths_all, np.minimum(dmax, front_lim), side="right") >= args.min_free_samples
+    stats = dict(cand=len(xy), cand_free=int(keep_c.sum()), samples=0, rejected_on_surface=0)
     order = np.nonzero(keep_c)[0]
     order = order[np.argsort(-n_allow[order], kind="stable")]  # group long rays together
-    xy, is_line, n_allow, d_lim = xy[order], is_line[order], n_allow[order], d_lim[order]
+    xy, is_line, n_allow, d_lim, front_lim = xy[order], is_line[order], n_allow[order], d_lim[order], front_lim[order]
 
     out = []
     for s0 in range(0, len(xy), args.chunk):
         sl = slice(s0, s0 + args.chunk)
-        cxy, cline, cna, cdl = xy[sl], is_line[sl], n_allow[sl], d_lim[sl]
+        cxy, cline, cna, cdl, cfl = xy[sl], is_line[sl], n_allow[sl], d_lim[sl], front_lim[sl]
         Dc = int(cna.max())
         dep = np.broadcast_to(depths_all[:Dc], (len(cxy), Dc)).copy()
         allowed = np.arange(Dc)[None, :] < cna[:, None]
@@ -278,6 +287,15 @@ def process_reference(scene, i, nbrs, feats, args):
         d_fin = dep_ref[r2, k2]
         hv = pv[r2, k2]  # (n, N) which neighbour views support the point
 
+        if args.free_space == 2:
+            front = d_fin <= cfl[idx]
+            stats["rejected_on_surface"] += int((~front).sum())
+            if not front.any():
+                continue
+            idx, d_fin, hv, h2_sel = idx[front], d_fin[front], hv[front], h2[r2, k2][front]
+        else:
+            h2_sel = h2[r2, k2]
+
         X = vr.C[None] + d_fin[:, None] * pixel_rays(K, vr, cxy[idx])
 
         # max triangulation angle among supporting views
@@ -292,7 +310,7 @@ def process_reference(scene, i, nbrs, feats, args):
         if not good.any():
             continue
         out.append(dict(
-            xyz=X[good], depth=d_fin[good], score=h2[r2, k2][good].astype(np.int16),
+            xyz=X[good], depth=d_fin[good], score=h2_sel[good].astype(np.int16),
             kind=(~cline[idx][good]).astype(np.uint8), px=cxy[idx][good],
             tri=max_ang[good].astype(np.float32),
         ))
@@ -349,7 +367,9 @@ def main():
     ap.add_argument("--unique_margin", type=int, default=2)
     ap.add_argument("--min_tri_angle", type=float, default=2.0)
     # free-space constraint (search only in front of the existing COLMAP surface)
-    ap.add_argument("--free_space", type=int, default=1, help="1: restrict the sweep to free space (A); 0: off")
+    ap.add_argument("--free_space", type=int, default=2, choices=[0, 1, 2],
+                    help="0: off; 1: truncate the sweep at front_ratio x background depth; "
+                         "2: full sweep, reject points whose best depth is not in front of the background")
     ap.add_argument("--front_ratio", type=float, default=0.9,
                     help="max sweep depth = front_ratio * background depth of the reference pixel")
     ap.add_argument("--occ_ratio", type=float, default=1.05,
@@ -410,7 +430,7 @@ def main():
                                              min_count=args.surf_min_count,
                                              max_spread=args.surf_max_spread) for i in ids}
         results = []
-        sweep_stats = dict(cand=0, cand_free=0, samples=0)
+        sweep_stats = dict(cand=0, cand_free=0, samples=0, rejected_on_surface=0)
         t1 = time.time()
         for n, i in enumerate(ids):
             if meds[i] is None:
@@ -426,7 +446,8 @@ def main():
                 tot = sum(len(x["xyz"]) for x in results)
                 print(f"  sweep {n + 1}/{len(ids)}  raw points {tot}  ({time.time() - t1:.0f}s)")
         print(f"  candidates {sweep_stats['cand']}, with free space {sweep_stats['cand_free']}, "
-              f"depth samples swept {sweep_stats['samples']}")
+              f"depth samples swept {sweep_stats['samples']}, rejected on/behind surface "
+              f"{sweep_stats['rejected_on_surface']}")
         if not results:
             print("no points accepted")
             return

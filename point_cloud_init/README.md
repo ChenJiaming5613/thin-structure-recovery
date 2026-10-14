@@ -50,6 +50,14 @@ python diagnose.py -s <scene> --frame 11 --roi 470 0 760 110 --lower 270 \
     --dirs <scene>/thin_init_old <scene>/thin_init --out cmp_11
 ```
 
+Set difference against a baseline folder (removed / added points, classified by depth relative to
+the COLMAP background; draws removed=blue, added=red):
+
+```bash
+python compare_sets.py -s <scene> --base <scene>/thin_init_old --cands <scene>/thin_init \
+    --frames 11 20 --out cmp
+```
+
 Standalone 2D detection on a single image:
 
 ```bash
@@ -77,11 +85,15 @@ python detect_2d.py --image <img> --out <dir> [--crop x0 y0 x1 y1]
    poses; a neighbour view votes if the projection lands within `tau` px of a candidate of the same
    kind (distance-transform lookup). For lines, views whose epipolar direction is nearly parallel to
    the local 2D line are treated as degenerate and ignored.
-   **Free-space constraint** (`--free_space 1`, default): a coarse background depth map is built per
-   frame from the COLMAP points (8 px tiles, 20th depth percentile, +inf where there are no points).
-   The sweep of a reference pixel stops at `front_ratio` (0.9) x its background depth, so accepted
-   points lie in front of the known surface, i.e. are suspended; a neighbour view does not vote for
-   samples behind its own background (`occ_ratio`). Use `--free_space 0` for the unconstrained sweep.
+   **Free-space constraint**: a coarse background depth map is built per frame from the COLMAP
+   points (8 px tiles, 20th depth percentile, +inf where there are no points); a neighbour view does
+   not vote for samples behind its own background (`occ_ratio`).
+   * `--free_space 2` (default, *reject*): full sweep; a point is dropped if its best depth is not in
+     front of the background (`> front_ratio` = 0.9 x background depth), so only suspended points survive.
+   * `--free_space 1` (*truncate*): the sweep stops at `front_ratio` x background depth. Removes
+     on-surface points too, but surface edges can then settle on a wrong depth in front of the
+     surface and become floaters; kept for comparison.
+   * `--free_space 0`: unconstrained sweep (original behaviour).
 3. **Acceptance**: minimum supporting views, support ratio, unique peak along the ray, minimum
    triangulation angle; local depth refinement.
 4. **Post filtering**: corroboration by other reference frames, removal of points close to the
