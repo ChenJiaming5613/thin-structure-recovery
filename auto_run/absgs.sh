@@ -1,4 +1,4 @@
-conda activate Absgs
+# conda activate Absgs
 
 cd ~
 

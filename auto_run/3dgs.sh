@@ -1,4 +1,4 @@
-conda activate gaussian_splatting
+# conda activate gaussian_splatting
 
 cd ~
 

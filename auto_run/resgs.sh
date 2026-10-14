@@ -1,4 +1,4 @@
-conda activate resgs
+# conda activate resgs
 
 cd ~
 
