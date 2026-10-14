@@ -162,6 +162,71 @@ class SurfaceDepth:
         return out
 
 
+class DenseBackground:
+    """Full-resolution background depth map (float16), combining the COLMAP tile map with an aligned
+    monocular depth map. The monocular map is max-filtered (`dilate` px) so that thin-but-visible
+    structures (poles, trunks) take the depth of what is behind them rather than their own depth.
+
+    mode 'fill': COLMAP tile value where available, monocular elsewhere
+    mode 'max' : the farther of the two (recall-friendly; COLMAP points on a thin structure itself
+                 then no longer hide the free space in front of the true background)
+    """
+
+    def __init__(self, colmap_bg, mono_z, mode="fill", dilate=4):
+        H, W = mono_z.shape
+        yy, xx = np.mgrid[0:H, 0:W]
+        zc = colmap_bg.lookup(xx + 0.5, yy + 0.5)
+        zm = ndi.maximum_filter(mono_z, size=2 * dilate + 1) if dilate > 0 else mono_z
+        if mode == "fill":
+            z = np.where(np.isfinite(zc), zc, zm)
+        elif mode == "max":
+            z = np.maximum(np.where(np.isfinite(zc), zc, 0), zm)
+            z = np.where(np.isfinite(zc) | np.isfinite(zm), z, np.inf)
+        else:
+            raise ValueError(mode)
+        self.z = np.minimum(z, np.finfo(np.float16).max).astype(np.float16)
+        self.z[~np.isfinite(z)] = np.inf
+        self.W, self.H = W, H
+
+    def lookup(self, u, v):
+        ui = np.floor(u).astype(np.int64)
+        vi = np.floor(v).astype(np.int64)
+        inside = (ui >= 0) & (ui < self.W) & (vi >= 0) & (vi < self.H)
+        out = np.full(np.shape(u), np.inf, np.float32)
+        out[inside] = self.z[vi[inside], ui[inside]]
+        return out
+
+
+def build_backgrounds(scene, ids, args, out_dir):
+    K, W, H, views = scene["K"], scene["W"], scene["H"], scene["views"]
+    tiles = {i: SurfaceDepth(K, W, H, views[i], scene["xyz"], tile=args.surf_tile, radius=args.surf_radius,
+                             pct=args.surf_pct, min_count=args.surf_min_count, max_spread=args.surf_max_spread)
+             for i in ids}
+    if args.bg == "colmap":
+        return tiles, {}
+    try:
+        import mono_depth
+        disp = mono_depth.load_or_predict(scene, views, ids, os.path.join(out_dir, "cache_mono"),
+                                          args.mono_model, args.mono_threads)
+    except ImportError as e:  # torch / transformers not installed
+        print(f"  WARNING: --bg {args.bg} needs torch + transformers ({e}); falling back to --bg colmap")
+        return tiles, {}
+    bgs, info = {}, {}
+    for i in ids:
+        u, w, z = mono_depth.visible_colmap_samples(K, W, H, views[i], scene["xyz"])
+        fit = mono_depth.align(disp[i], u, w, z)
+        if fit is None or fit[2] > args.mono_max_err:
+            bgs[i] = tiles[i]
+            info[views[i].name] = dict(used=False, err=None if fit is None else round(fit[2], 4))
+            continue
+        a, b, err, n = fit
+        bgs[i] = DenseBackground(tiles[i], mono_depth.aligned_depth(disp[i], a, b), args.bg, args.bg_dilate)
+        info[views[i].name] = dict(used=True, a=a, b=b, err=round(err, 4), n=n)
+    n_used = sum(v["used"] for v in info.values())
+    print(f"  dense background ({args.bg}): monocular depth used in {n_used}/{len(ids)} frames")
+    return bgs, info
+
+
 def pixel_rays(K, v, xy):
     """World-space ray directions (scaled to unit camera-z) through integer pixel indices.
     COLMAP convention: the centre of pixel index (x, y) is at (x + 0.5, y + 0.5)."""
@@ -384,6 +449,15 @@ def main():
     ap.add_argument("--surf_min_count", type=int, default=3, help="min COLMAP points for a tile to count as surface")
     ap.add_argument("--surf_max_spread", type=float, default=0.0,
                     help=">0: leave tiles unconstrained if p80/p20 of their depths exceeds this (mixed depths)")
+    ap.add_argument("--bg", default="fill", choices=["colmap", "fill", "max"],
+                    help="background depth: colmap = COLMAP tiles only; fill = monocular depth where COLMAP has no "
+                         "points (default); max = farther of the two. fill/max need torch + transformers and fall "
+                         "back to colmap if they are missing")
+    ap.add_argument("--bg_dilate", type=int, default=8, help="max-filter radius (px) applied to the monocular depth")
+    ap.add_argument("--mono_model", default="depth-anything/Depth-Anything-V2-Small-hf")
+    ap.add_argument("--mono_threads", type=int, default=0, help="torch CPU threads (0 = default)")
+    ap.add_argument("--mono_max_err", type=float, default=0.15,
+                    help="frames whose monocular/COLMAP median relative depth error exceeds this fall back to COLMAP")
     # post filtering
     ap.add_argument("--min_ref_support", type=int, default=2, help="other reference frames that must corroborate a point")
     ap.add_argument("--support_px", type=float, default=4.0, help="corroboration radius in px footprint")
@@ -425,10 +499,10 @@ def main():
             r = visible_depth_range(K, W, H, views[i], scene["xyz"])
             meds[i] = r[1] if r else None
         if args.free_space:
-            feats["surf"] = {i: SurfaceDepth(K, W, H, views[i], scene["xyz"], tile=args.surf_tile,
-                                             radius=args.surf_radius, pct=args.surf_pct,
-                                             min_count=args.surf_min_count,
-                                             max_spread=args.surf_max_spread) for i in ids}
+            feats["surf"], bg_info = build_backgrounds(scene, ids, args, out)
+            if bg_info:
+                with open(os.path.join(out, "background_fit.json"), "w") as fp:
+                    json.dump(bg_info, fp, indent=1)
         results = []
         sweep_stats = dict(cand=0, cand_free=0, samples=0, rejected_on_surface=0)
         t1 = time.time()

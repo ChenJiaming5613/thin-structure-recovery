@@ -12,7 +12,11 @@ Python 3.8+, CPU only.
 
 ```bash
 pip install -r requirements.txt
+# optional, for the dense monocular background (--bg fill, default; falls back to --bg colmap without it)
+pip install torch transformers
 ```
+
+The monocular model weights (~100 MB) are downloaded from the HuggingFace hub on first use.
 
 ## Input
 
@@ -94,6 +98,15 @@ python detect_2d.py --image <img> --out <dir> [--crop x0 y0 x1 y1]
      on-surface points too, but surface edges can then settle on a wrong depth in front of the
      surface and become floaters; kept for comparison.
    * `--free_space 0`: unconstrained sweep (original behaviour).
+
+   **Dense background** (`--bg fill`, default): COLMAP has no points on textureless surfaces
+   (walls, door frames), so the background there is unknown and the constraint is inactive. With
+   `--bg fill` a monocular depth map (Depth Anything V2 Small, CPU ~0.75 s/frame) is aligned per frame
+   to the visible COLMAP points (robust fit of `1/z = a*disp + b`, frames with median error above
+   `--mono_max_err` fall back to COLMAP only), max-filtered by `--bg_dilate` px so that poles and trunks
+   take the depth behind them, and used wherever the COLMAP tile map is empty. Fits are written to
+   `background_fit.json`, predictions are cached in `cache_mono/`. `--bg colmap` disables it; if
+   torch/transformers are missing it falls back automatically.
 3. **Acceptance**: minimum supporting views, support ratio, unique peak along the ray, minimum
    triangulation angle; local depth refinement.
 4. **Post filtering**: corroboration by other reference frames, removal of points close to the
