@@ -4,9 +4,8 @@ import sys
 import numpy as np
 from PIL import Image
 
-_SCENE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "scene")
-sys.path.insert(0, os.path.abspath(_SCENE_DIR))
-import colmap_loader as cl  # noqa: E402  (imported directly to avoid scene/__init__ pulling in torch)
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from third_party import colmap_loader as cl  # noqa: E402  (bundled copy, see third_party/LICENSE_gaussian-splatting.md)
 
 
 class View:
