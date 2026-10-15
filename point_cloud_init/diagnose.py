@@ -39,6 +39,7 @@ def load_xyz(d):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("-s", "--scene", required=True)
+    ap.add_argument("--images", default="images")
     ap.add_argument("--frame", type=int, required=True, help="1-based")
     ap.add_argument("--roi", type=int, nargs=4, required=True, help="x0 y0 x1 y1")
     ap.add_argument("--lower", type=int, default=None, help="also count points with v > lower (e.g. ground/vehicle)")
@@ -48,7 +49,7 @@ def main():
     ap.add_argument("--out", default=None)
     args = ap.parse_args()
 
-    sc = common.load_scene(args.scene)
+    sc = common.load_scene(args.scene, args.images)
     K, W, H = sc["K"], sc["W"], sc["H"]
     v = sc["views"][args.frame - 1]
     zb = zbuffer(K, W, H, v, sc["xyz"])

@@ -69,6 +69,7 @@ def draw(scene, v, sets, path):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("-s", "--scene", required=True)
+    ap.add_argument("--images", default="images")
     ap.add_argument("--base", required=True)
     ap.add_argument("--cands", nargs="+", required=True)
     ap.add_argument("--frames", type=int, nargs="*", default=[], help="1-based frames to draw")
@@ -76,7 +77,7 @@ def main():
     ap.add_argument("--out", default=None)
     args = ap.parse_args()
 
-    sc = common.load_scene(args.scene)
+    sc = common.load_scene(args.scene, args.images)
     Xb, ab = diagnose.load_xyz(args.base)
     rb = rel_depth(sc, Xb, ab["ref"].astype(int))
     print(f"base {os.path.basename(os.path.normpath(args.base))}: {len(Xb)} pts | {describe(rb)}")
