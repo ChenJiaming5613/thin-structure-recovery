@@ -64,8 +64,10 @@ def frame_features(path, det_cfg, max_line_samples, rng):
 
 def load_or_detect(scene, views, ids, cache_dir, det_cfg, max_line_samples, seed):
     os.makedirs(cache_dir, exist_ok=True)
+    # image size is part of the tag: cached pixel coordinates are only valid for the resolution they were detected at
     cfg_tag = json.dumps({**detect_2d.DEFAULTS, **{k: v for k, v in det_cfg.items() if v is not None},
-                          "max_line_samples": max_line_samples}, sort_keys=True, default=list)
+                          "max_line_samples": max_line_samples, "image_size": [scene["W"], scene["H"]]},
+                         sort_keys=True, default=list)
     feats = {}
     t0 = time.time()
     for n, i in enumerate(ids):
@@ -277,7 +279,14 @@ def sweep(K, W, H, vr, xy, is_line, depths, nbrs, feats, args, return_views=Fals
     return (hits, nvalid, cost, per_view) if return_views else (hits, nvalid, cost)
 
 
-def process_reference(scene, i, nbrs, feats, args):
+REJ_NO_FREE, REJ_SUPPORT, REJ_SURFACE, REJ_TRI = 1, 2, 3, 4  # per-candidate codes, 0 = accepted (raw point)
+
+
+def process_reference(scene, i, nbrs, feats, args, labels=False):
+    """labels=True additionally returns (xy, is_line, code) for every candidate of frame i, where code is
+    0 (accepted), REJ_NO_FREE (no room in front of the background), REJ_SUPPORT (too few / ambiguous
+    multi-view support), REJ_SURFACE (best depth not in front of the background) or REJ_TRI
+    (triangulation angle too small); accepted raw points then carry their candidate index in 'cand'."""
     K, W, H, views = scene["K"], scene["W"], scene["H"], scene["views"]
     vr = views[i]
     rng_d = visible_depth_range(K, W, H, vr, scene["xyz"])
@@ -313,6 +322,9 @@ def process_reference(scene, i, nbrs, feats, args):
         # nothing can be accepted where the free space in front of the surface is shorter than min_free_samples
         keep_c &= np.searchsorted(depths_all, np.minimum(dmax, front_lim), side="right") >= args.min_free_samples
     stats = dict(cand=len(xy), cand_free=int(keep_c.sum()), samples=0, rejected_on_surface=0)
+    xy0, is_line0 = xy, is_line
+    code = np.full(len(xy), -1, np.int8)
+    code[~keep_c] = REJ_NO_FREE
     order = np.nonzero(keep_c)[0]
     order = order[np.argsort(-n_allow[order], kind="stable")]  # group long rays together
     xy, is_line, n_allow, d_lim, front_lim = xy[order], is_line[order], n_allow[order], d_lim[order], front_lim[order]
@@ -320,6 +332,7 @@ def process_reference(scene, i, nbrs, feats, args):
     out = []
     for s0 in range(0, len(xy), args.chunk):
         sl = slice(s0, s0 + args.chunk)
+        orig = order[sl]
         cxy, cline, cna, cdl, cfl = xy[sl], is_line[sl], n_allow[sl], d_lim[sl], front_lim[sl]
         Dc = int(cna.max())
         dep = np.broadcast_to(depths_all[:Dc], (len(cxy), Dc)).copy()
@@ -335,6 +348,7 @@ def process_reference(scene, i, nbrs, feats, args):
         far = np.abs(np.arange(Dc)[None, :] - k[:, None]) > args.unique_window
         second = np.where(far, hits, 0).max(1)
         ok = (best >= args.min_views) & (best >= args.min_ratio * np.maximum(nv, 1)) & (second <= best - args.unique_margin)
+        code[orig[~ok]] = REJ_SUPPORT
         if not ok.any():
             continue
 
@@ -355,6 +369,7 @@ def process_reference(scene, i, nbrs, feats, args):
         if args.free_space == 2:
             front = d_fin <= cfl[idx]
             stats["rejected_on_surface"] += int((~front).sum())
+            code[orig[idx[~front]]] = REJ_SURFACE
             if not front.any():
                 continue
             idx, d_fin, hv, h2_sel = idx[front], d_fin[front], hv[front], h2[r2, k2][front]
@@ -372,18 +387,24 @@ def process_reference(scene, i, nbrs, feats, args):
         ang = np.degrees(np.arccos(np.clip((a[:, None, :] * b).sum(2), -1, 1)))
         max_ang = np.where(hv, ang, 0).max(1)
         good = max_ang >= args.min_tri_angle
+        code[orig[idx[~good]]] = REJ_TRI
+        code[orig[idx[good]]] = 0
         if not good.any():
             continue
-        out.append(dict(
+        o = dict(
             xyz=X[good], depth=d_fin[good], score=h2_sel[good].astype(np.int16),
             kind=(~cline[idx][good]).astype(np.uint8), px=cxy[idx][good],
             tri=max_ang[good].astype(np.float32),
-        ))
+        )
+        if labels:
+            o["cand"] = orig[idx[good]].astype(np.int64)
+        out.append(o)
+    lab = (xy0, is_line0, code)
     if not out:
-        return None, stats
+        return (None, stats, lab) if labels else (None, stats)
     res = {k: np.concatenate([o[k] for o in out], 0) for k in out[0]}
     res["ref"] = np.full(len(res["xyz"]), i, np.int32)
-    return res, stats
+    return (res, stats, lab) if labels else (res, stats)
 
 
 # ----------------------------------------------------------------------------- post filtering

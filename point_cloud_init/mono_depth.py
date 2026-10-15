@@ -46,7 +46,7 @@ def load_or_predict(scene, views, ids, cache_dir, model_name=MODEL, threads=0):
         f = os.path.join(cache_dir, os.path.splitext(views[i].name)[0] + ".npz")
         if os.path.exists(f):
             z = np.load(f)
-            if str(z["model"]) == model_name:
+            if str(z["model"]) == model_name and z["disp"].shape == (scene["H"], scene["W"]):
                 out[i] = z["disp"]
                 continue
         todo.append(i)
