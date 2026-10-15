@@ -62,6 +62,14 @@ python compare_sets.py -s <scene> --base <scene>/thin_init_old --cands <scene>/t
     --frames 11 20 --out cmp
 ```
 
+Export the cached monocular depth as PNG (`disp` = raw relative disparity, `depth` = aligned to the
+COLMAP scale, `bg` = background depth actually used by the sweep; `--raw16` adds uint16 depth*1000):
+
+```bash
+python depth_to_png.py --thin_dir <scene>/thin_init --kind depth --frames 40-60 --raw16
+python depth_to_png.py --thin_dir <scene>/thin_init -s <scene> --images images_4 --kind bg --with_rgb
+```
+
 Standalone 2D detection on a single image:
 
 ```bash
