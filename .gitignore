@@ -3,3 +3,16 @@ __pycache__/
 external/.venv_edgs/
 external/EDGS/
 external/*.log
+
+# paper: build intermediates, backups and scratch renders (the paper is rebuilt by paper/_tools/restructure.py)
+paper/_work/
+paper/_build/
+paper/_bak_*/
+paper/detect_000000_0/
+paper/_ov/*
+!paper/_ov/lambda_fix.pptx
+!paper/_ov/preview.py
+paper/_review/*.png
+!paper/_review/fig1_photo_src.png
+paper/_review/paper.txt
+~$*

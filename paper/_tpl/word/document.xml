@@ -1,0 +1,3270 @@
+<?xml version="1.0" encoding="UTF-8"?><w:document xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex" xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex" xmlns:cx2="http://schemas.microsoft.com/office/drawing/2015/10/21/chartex" xmlns:cx3="http://schemas.microsoft.com/office/drawing/2016/5/9/chartex" xmlns:cx4="http://schemas.microsoft.com/office/drawing/2016/5/10/chartex" xmlns:cx5="http://schemas.microsoft.com/office/drawing/2016/5/11/chartex" xmlns:cx6="http://schemas.microsoft.com/office/drawing/2016/5/12/chartex" xmlns:cx7="http://schemas.microsoft.com/office/drawing/2016/5/13/chartex" xmlns:cx8="http://schemas.microsoft.com/office/drawing/2016/5/14/chartex" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:aink="http://schemas.microsoft.com/office/drawing/2016/ink" xmlns:am3d="http://schemas.microsoft.com/office/drawing/2017/model3d" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:oel="http://schemas.microsoft.com/office/2019/extlst" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" xmlns:w15="http://schemas.microsoft.com/office/word/2012/wordml" xmlns:w16cex="http://schemas.microsoft.com/office/word/2018/wordml/cex" xmlns:w16cid="http://schemas.microsoft.com/office/word/2016/wordml/cid" xmlns:w16="http://schemas.microsoft.com/office/word/2018/wordml" xmlns:w16du="http://schemas.microsoft.com/office/word/2023/wordml/word16du" xmlns:w16sdtdh="http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash" xmlns:w16sdtfl="http://schemas.microsoft.com/office/word/2024/wordml/sdtformatlock" xmlns:w16se="http://schemas.microsoft.com/office/word/2015/wordml/symex" xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup" xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml" xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape" mc:Ignorable="w14 w15 w16se w16cid w16 w16cex w16sdtdh w16sdtfl w16du wp14">
+  <w:body>
+    <w:p w14:paraId="42B97667" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:rPr>
+          <w:rFonts w:eastAsia="黑体" w:hint="eastAsia"/>
+          <w:sz w:val="10"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="600014E6" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:rPr>
+          <w:rFonts w:eastAsia="黑体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="10"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="36"/>
+          <w:szCs w:val="36"/>
+          <w:lang w:val="zh-CN"/>
+        </w:rPr>
+        <w:t>例文：《小型微型计算机系统》文章版式</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="黑体"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="36"/>
+          <w:szCs w:val="36"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> (</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="黑体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="36"/>
+          <w:szCs w:val="36"/>
+        </w:rPr>
+        <w:t>文章标题</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="36"/>
+          <w:szCs w:val="36"/>
+          <w:lang w:val="zh-CN"/>
+        </w:rPr>
+        <w:t>小</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="黑体"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="36"/>
+          <w:szCs w:val="36"/>
+        </w:rPr>
+        <w:t>2</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="36"/>
+          <w:szCs w:val="36"/>
+          <w:lang w:val="zh-CN"/>
+        </w:rPr>
+        <w:t>黑体</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="黑体"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="36"/>
+          <w:szCs w:val="36"/>
+        </w:rPr>
+        <w:t>)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="7E2EA054" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:rPr>
+          <w:rFonts w:eastAsia="黑体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="10"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="5DC9C27B" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:pStyle w:val="a5"/>
+        <w:rPr>
+          <w:rFonts w:ascii="仿宋_GB2312" w:eastAsia="仿宋_GB2312" w:hint="eastAsia"/>
+          <w:sz w:val="10"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="仿宋_GB2312" w:eastAsia="仿宋_GB2312" w:hint="eastAsia"/>
+          <w:sz w:val="24"/>
+          <w:lang w:val="zh-CN"/>
+        </w:rPr>
+        <w:t>郭锐锋</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="仿宋_GB2312" w:eastAsia="仿宋_GB2312"/>
+          <w:sz w:val="24"/>
+          <w:vertAlign w:val="superscript"/>
+          <w:lang w:val="zh-CN"/>
+        </w:rPr>
+        <w:t>1</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="仿宋_GB2312" w:eastAsia="仿宋_GB2312" w:hint="eastAsia"/>
+          <w:sz w:val="24"/>
+          <w:lang w:val="zh-CN"/>
+        </w:rPr>
+        <w:t>，蓝</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="仿宋_GB2312" w:eastAsia="仿宋_GB2312"/>
+          <w:sz w:val="24"/>
+          <w:lang w:val="zh-CN"/>
+        </w:rPr>
+        <w:t xml:space="preserve">  </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="仿宋_GB2312" w:eastAsia="仿宋_GB2312" w:hint="eastAsia"/>
+          <w:sz w:val="24"/>
+          <w:lang w:val="zh-CN"/>
+        </w:rPr>
+        <w:t>天</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="仿宋_GB2312" w:eastAsia="仿宋_GB2312"/>
+          <w:sz w:val="24"/>
+          <w:vertAlign w:val="superscript"/>
+          <w:lang w:val="zh-CN"/>
+        </w:rPr>
+        <w:t>2</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="仿宋_GB2312" w:eastAsia="仿宋_GB2312" w:hint="eastAsia"/>
+          <w:sz w:val="24"/>
+          <w:lang w:val="zh-CN"/>
+        </w:rPr>
+        <w:t>，东</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="仿宋_GB2312" w:eastAsia="仿宋_GB2312"/>
+          <w:sz w:val="24"/>
+          <w:lang w:val="zh-CN"/>
+        </w:rPr>
+        <w:t xml:space="preserve">  </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="仿宋_GB2312" w:eastAsia="仿宋_GB2312" w:hint="eastAsia"/>
+          <w:sz w:val="24"/>
+          <w:lang w:val="zh-CN"/>
+        </w:rPr>
+        <w:t>方</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="仿宋_GB2312" w:eastAsia="仿宋_GB2312"/>
+          <w:sz w:val="24"/>
+          <w:vertAlign w:val="superscript"/>
+          <w:lang w:val="zh-CN"/>
+        </w:rPr>
+        <w:t>1</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="仿宋_GB2312" w:eastAsia="仿宋_GB2312" w:hint="eastAsia"/>
+          <w:sz w:val="24"/>
+          <w:vertAlign w:val="superscript"/>
+          <w:lang w:val="zh-CN"/>
+        </w:rPr>
+        <w:t>，</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="仿宋_GB2312" w:eastAsia="仿宋_GB2312"/>
+          <w:sz w:val="24"/>
+          <w:vertAlign w:val="superscript"/>
+          <w:lang w:val="zh-CN"/>
+        </w:rPr>
+        <w:t xml:space="preserve">2  </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="仿宋_GB2312" w:eastAsia="仿宋_GB2312"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="24"/>
+        </w:rPr>
+        <w:t xml:space="preserve">  </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="仿宋_GB2312" w:eastAsia="仿宋_GB2312"/>
+          <w:sz w:val="24"/>
+          <w:lang w:val="zh-CN"/>
+        </w:rPr>
+        <w:t>(</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="仿宋_GB2312" w:eastAsia="仿宋_GB2312" w:hint="eastAsia"/>
+          <w:sz w:val="24"/>
+          <w:lang w:val="zh-CN"/>
+        </w:rPr>
+        <w:t>小</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="仿宋_GB2312" w:eastAsia="仿宋_GB2312"/>
+          <w:sz w:val="24"/>
+          <w:lang w:val="zh-CN"/>
+        </w:rPr>
+        <w:t>4</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="仿宋_GB2312" w:eastAsia="仿宋_GB2312" w:hint="eastAsia"/>
+          <w:sz w:val="24"/>
+          <w:lang w:val="zh-CN"/>
+        </w:rPr>
+        <w:t>仿宋体</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="仿宋_GB2312" w:eastAsia="仿宋_GB2312"/>
+          <w:sz w:val="24"/>
+          <w:lang w:val="zh-CN"/>
+        </w:rPr>
+        <w:t>)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="2036CE37" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:rPr>
+          <w:rFonts w:ascii="方正书宋简体" w:eastAsia="方正书宋简体" w:hint="eastAsia"/>
+          <w:sz w:val="10"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="7191CC2D" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+          <w:sz w:val="15"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="15"/>
+          <w:vertAlign w:val="superscript"/>
+        </w:rPr>
+        <w:t>1</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="15"/>
+        </w:rPr>
+        <w:t>（中国科学院 沈阳计算技术研究所，沈阳</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+          <w:sz w:val="15"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="15"/>
+        </w:rPr>
+        <w:t>110168）</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+          <w:sz w:val="15"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> (6</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="15"/>
+        </w:rPr>
+        <w:t>号宋体，如是省会城市不用注明省，如不是则需要注明省所在</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+          <w:sz w:val="15"/>
+        </w:rPr>
+        <w:t>)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="0152BD08" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+          <w:sz w:val="15"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="15"/>
+          <w:vertAlign w:val="superscript"/>
+        </w:rPr>
+        <w:t>2</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="15"/>
+        </w:rPr>
+        <w:t>（中国科学院 沈阳计算技术研究所</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+          <w:sz w:val="15"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="15"/>
+        </w:rPr>
+        <w:t>编辑部，沈阳</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+          <w:sz w:val="15"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="15"/>
+        </w:rPr>
+        <w:t>110168）</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="5E2A97EC" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体" w:hint="eastAsia"/>
+          <w:sz w:val="15"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体"/>
+          <w:sz w:val="15"/>
+        </w:rPr>
+        <w:t>E-mail</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体" w:hint="eastAsia"/>
+          <w:sz w:val="15"/>
+        </w:rPr>
+        <w:t>：</w:t>
+      </w:r>
+      <w:hyperlink r:id="rId6" w:history="1">
+        <w:r>
+          <w:rPr>
+            <w:rStyle w:val="a9"/>
+            <w:rFonts w:eastAsia="方正书宋简体"/>
+            <w:sz w:val="15"/>
+          </w:rPr>
+          <w:t>xwjxt@sict.ac.cn</w:t>
+        </w:r>
+      </w:hyperlink>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="15"/>
+        </w:rPr>
+        <w:t>（只要一个）</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="23132589" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:rPr>
+          <w:rFonts w:ascii="楷体_GB2312" w:eastAsia="楷体_GB2312" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>摘</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="黑体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t xml:space="preserve">　</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>要：</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="楷体_GB2312" w:eastAsia="楷体_GB2312" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>在此用简洁、准确的语言，写出本文摘要，一般应说明研究工作的目的、实验方法、技术成果和最终结论，而其重点是成果和结论。字数以250字以上300字以下为宜。请不要在摘要中引用参考文献和英文缩略语。(小5楷体)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="3093ADD2" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="黑体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>关键词：</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>关键词；关键词；关键词；关键词  (小5宋体，以4-6个为宜)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="2C801BD8" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:rPr>
+          <w:rFonts w:eastAsia="黑体"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:sectPr w:rsidR="00696531">
+          <w:headerReference w:type="even" r:id="rId7"/>
+          <w:headerReference w:type="default" r:id="rId8"/>
+          <w:footerReference w:type="even" r:id="rId9"/>
+          <w:footerReference w:type="default" r:id="rId10"/>
+          <w:headerReference w:type="first" r:id="rId11"/>
+          <w:footerReference w:type="first" r:id="rId12"/>
+          <w:type w:val="continuous"/>
+          <w:pgSz w:w="11906" w:h="16838"/>
+          <w:pgMar w:top="1134" w:right="1134" w:bottom="1134" w:left="1134" w:header="851" w:footer="992" w:gutter="0"/>
+          <w:cols w:space="720"/>
+          <w:titlePg/>
+          <w:docGrid w:type="linesAndChars" w:linePitch="312"/>
+        </w:sectPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="49B8FD0B" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531" w:rsidP="00686347">
+      <w:pPr>
+        <w:ind w:left="1" w:rightChars="307" w:right="645"/>
+        <w:rPr>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:sectPr w:rsidR="00696531">
+          <w:type w:val="continuous"/>
+          <w:pgSz w:w="11906" w:h="16838"/>
+          <w:pgMar w:top="1134" w:right="1134" w:bottom="1134" w:left="1134" w:header="851" w:footer="992" w:gutter="0"/>
+          <w:cols w:num="2" w:space="425" w:equalWidth="0">
+            <w:col w:w="4606" w:space="425"/>
+            <w:col w:w="4606"/>
+          </w:cols>
+          <w:titlePg/>
+          <w:docGrid w:type="linesAndChars" w:linePitch="312"/>
+        </w:sectPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="黑体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>中图分类号</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>：TP</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t xml:space="preserve">  </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t xml:space="preserve">          </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t xml:space="preserve">   </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>文献标识码：</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>A　　　　　　　　　　</w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p w14:paraId="58D06516" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:spacing w:line="480" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="10"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="黑体"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="24"/>
+        </w:rPr>
+        <w:t xml:space="preserve">English Title  </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="24"/>
+        </w:rPr>
+        <w:t>(小4黑，单词首字母大写，英文标题中一般不要使用缩略语)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="4DC2F1E1" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00686347">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>GUO Ruifeng</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+          <w:vertAlign w:val="superscript"/>
+        </w:rPr>
+        <w:t>1</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>，LAN Tian</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+          <w:vertAlign w:val="superscript"/>
+        </w:rPr>
+        <w:t>2</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>，DONG Fang</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+          <w:vertAlign w:val="superscript"/>
+        </w:rPr>
+        <w:t>1</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体"/>
+          <w:sz w:val="18"/>
+          <w:vertAlign w:val="superscript"/>
+        </w:rPr>
+        <w:t>,2</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t xml:space="preserve">  (小5号，姓和名字首字母要大写)</w:t>
+      </w:r>
+      
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="4AC62C5D" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:rPr>
+          <w:sz w:val="15"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="15"/>
+          <w:vertAlign w:val="superscript"/>
+        </w:rPr>
+        <w:t>1</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:sz w:val="15"/>
+        </w:rPr>
+        <w:t>（D</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="15"/>
+        </w:rPr>
+        <w:t>epartment, University, Shenyang 11</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:sz w:val="15"/>
+        </w:rPr>
+        <w:t>0168</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="15"/>
+        </w:rPr>
+        <w:t>, China</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:sz w:val="15"/>
+        </w:rPr>
+        <w:t>）  (6号正)</w:t>
+      </w:r>
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="2FA0CDA5" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:rPr>
+          <w:sz w:val="15"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="15"/>
+          <w:vertAlign w:val="superscript"/>
+        </w:rPr>
+        <w:t>2</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:sz w:val="15"/>
+        </w:rPr>
+        <w:t>（D</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="15"/>
+        </w:rPr>
+        <w:t>epartment, University, Shenyang 11</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:sz w:val="15"/>
+        </w:rPr>
+        <w:t>0168</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="15"/>
+        </w:rPr>
+        <w:t>, China</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:sz w:val="15"/>
+        </w:rPr>
+        <w:t>）  (6号正)</w:t>
+      </w:r>
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="46FDEEF5" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>Abstract:</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t xml:space="preserve">  </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>(内容用小5号,Times New Roman字体)</w:t>
+      </w:r>
+      
+      
+      
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="16C519CD" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:sectPr w:rsidR="00696531">
+          <w:headerReference w:type="even" r:id="rId13"/>
+          <w:headerReference w:type="default" r:id="rId14"/>
+          <w:headerReference w:type="first" r:id="rId15"/>
+          <w:footerReference w:type="first" r:id="rId16"/>
+          <w:type w:val="continuous"/>
+          <w:pgSz w:w="11906" w:h="16838"/>
+          <w:pgMar w:top="1588" w:right="1077" w:bottom="1588" w:left="1077" w:header="0" w:footer="0" w:gutter="0"/>
+          <w:cols w:space="720"/>
+          <w:titlePg/>
+          <w:docGrid w:type="lines" w:linePitch="312"/>
+        </w:sectPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>K</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>eywords:</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> (内容用小5 号,Times New Roman字体)</w:t>
+      </w:r>
+      
+      
+      
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="227B9D6C" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:spacing w:line="240" w:lineRule="atLeast"/>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="7B530ACD" w14:textId="77777777" w:rsidR="00686347" w:rsidRDefault="00686347">
+      <w:pPr>
+        <w:spacing w:line="240" w:lineRule="atLeast"/>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>0 引  言</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="3BD2611F" w14:textId="77777777" w:rsidR="00686347" w:rsidRDefault="00686347">
+      <w:pPr>
+        <w:spacing w:line="240" w:lineRule="atLeast"/>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="10E4A57A" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:spacing w:line="240" w:lineRule="atLeast"/>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t xml:space="preserve">1　</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t xml:space="preserve"> (一级标题用5号黑)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="2EACEA2D" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:spacing w:line="240" w:lineRule="atLeast"/>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>1.1</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t xml:space="preserve"> （二级标题用小5号黑）</w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p w14:paraId="3AA0844F" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:spacing w:line="240" w:lineRule="atLeast"/>
+        <w:ind w:firstLine="360"/>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>给出详细的作者所在单位，院系（部门）名称，单位所在省、市以及邮政编码。</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="3B009AE0" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:spacing w:line="280" w:lineRule="exact"/>
+        <w:ind w:firstLine="360"/>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>对于英文单位部分，内容应该包括详细的作者所在单位，院系（部门）名称（单位名称及院系名称，请不要用缩略语写），单位所在城市，邮政编码及国家。</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="2142447D" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:spacing w:line="240" w:lineRule="atLeast"/>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t xml:space="preserve">1.2　作者简介 </w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="064A4355" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:pStyle w:val="a3"/>
+        <w:spacing w:line="240" w:lineRule="atLeast"/>
+        <w:ind w:firstLine="360"/>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>含作者姓名、性别、出生年、最高学位、技术职称、研究方向。</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="6A05D823" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:spacing w:line="240" w:lineRule="atLeast"/>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t xml:space="preserve">2　基金项目 </w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="7D41A2C2" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:spacing w:line="240" w:lineRule="atLeast"/>
+        <w:ind w:firstLine="420"/>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:spacing w:val="-6"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:spacing w:val="-6"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>基金项目应包含完整的基金项目中文名称以及项目号</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:spacing w:val="-6"/>
+        </w:rPr>
+        <w:t>。</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="5A0DE9D5" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:spacing w:line="240" w:lineRule="atLeast"/>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t xml:space="preserve">3　</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t xml:space="preserve">文章摘要 </w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="62D065DF" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:pStyle w:val="a3"/>
+        <w:spacing w:line="240" w:lineRule="atLeast"/>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hint="eastAsia"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t xml:space="preserve">3.1　</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>中文摘要 (二级标题用小5号黑)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="6FE0FF84" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:pStyle w:val="a3"/>
+        <w:ind w:firstLineChars="200" w:firstLine="360"/>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>文章摘要应具有独立性和自明性，拥有同正文同等量的主要信息，其述叙语言应简洁、准确。摘要应符合以下要求：</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="25B74D30" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:ind w:firstLineChars="200" w:firstLine="360"/>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>1.</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>四要素要完整，应说明研究工作的目的、实验方法、技术成果和最终结论，而其重点是成果和结论；</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="0418E303" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:pStyle w:val="a3"/>
+        <w:ind w:firstLine="360"/>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>2.</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>删除在本学科领域已成为常识的内容，一般不要做自我评价；</w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p w14:paraId="49C9A2E3" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:pStyle w:val="a3"/>
+        <w:ind w:firstLine="360"/>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体"/>
+        </w:rPr>
+        <w:t xml:space="preserve">3. </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>不得简单重复文章题目；慎用长句，不要分段；使用第三人称（文章题目不得超过25字）；</w:t>
+      </w:r>
+      
+      
+    </w:p>
+    <w:p w14:paraId="577AAC2A" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:pStyle w:val="a3"/>
+        <w:ind w:firstLine="360"/>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>4.</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>采用规范化术语；新术语可使用原文或在译名后加</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:spacing w:val="-6"/>
+        </w:rPr>
+        <w:t>括号注明原文；缩略语、略称、代号，在首次出现时也应说明；</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="182BAEF6" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:pStyle w:val="a3"/>
+        <w:ind w:firstLine="360"/>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>5.</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>不得出现正文中的图号、表号、公式、章节号以及参考文献等；</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="5EE3D5D4" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:pStyle w:val="a3"/>
+        <w:ind w:firstLine="360"/>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>6.</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>字数不超过300字，一般在2</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体"/>
+        </w:rPr>
+        <w:t>5</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>0-300字之间。</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="658F0446" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:pStyle w:val="a3"/>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t xml:space="preserve">3.2　英文摘要 </w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="3AA3DE9A" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:pStyle w:val="a3"/>
+        <w:ind w:firstLine="360"/>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>写英文摘要时请注意时态，语态。</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="3B9F865F" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:pStyle w:val="a3"/>
+        <w:ind w:firstLine="360"/>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>英文摘要常用一般现在时（用于说明研究目的、内容、结果、结论、建议等，或涉及公认事实、自然规律等内容）、一般过去时（用于尚不能确认为自然规律的发现、研究过程等内容，用一般过去时），少用现在完成时、过去完成时，进行时态和其他复合时态基本不用。</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="71F2CED7" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:pStyle w:val="a4"/>
+        <w:ind w:firstLine="336"/>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:spacing w:val="-6"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:spacing w:val="-6"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>可以较多地使用主动语态。可以用必须强调地事物做主语。</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="0AF5F044" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:spacing w:line="240" w:lineRule="atLeast"/>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t xml:space="preserve">4　正　文 </w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="180F1262" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:spacing w:line="240" w:lineRule="atLeast"/>
+        <w:ind w:firstLine="375"/>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>正文字体应使用小5号宋体。</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="1540FD7D" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:spacing w:line="240" w:lineRule="atLeast"/>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t xml:space="preserve">5　图和表的要求 </w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="79496D9D" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:spacing w:line="240" w:lineRule="atLeast"/>
+        <w:ind w:firstLineChars="200" w:firstLine="360"/>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>图和表要给出中、英文图注和表头。</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="10FF0BA3" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:spacing w:line="280" w:lineRule="exact"/>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t xml:space="preserve">5.1　图的作法 </w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="236E1966" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:spacing w:line="280" w:lineRule="exact"/>
+        <w:ind w:firstLine="375"/>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>文章里的图（如果是线划图）最好用</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>Word</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>做，图里字号统一为6号，图宽不超过8</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>cm</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>，不要加灰色底纹.稍复杂</w:t>
+      <w:lastRenderedPageBreak/><w:t>的图可用</w:t></w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>VISIO2000</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>作。</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="51D125D6" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:spacing w:line="280" w:lineRule="exact"/>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>5.2　</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t xml:space="preserve">图　注 </w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="5FA55D07" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:spacing w:line="280" w:lineRule="exact"/>
+        <w:ind w:firstLine="375"/>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>每个图均需要图注如：</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="65EED106" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531" w:rsidP="00686347">
+      <w:pPr>
+        <w:spacing w:line="280" w:lineRule="exact"/>
+        <w:ind w:firstLineChars="757" w:firstLine="1363"/>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>图1 ***结构图</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="15D5BA36" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531" w:rsidP="00686347">
+      <w:pPr>
+        <w:spacing w:line="280" w:lineRule="exact"/>
+        <w:ind w:firstLineChars="857" w:firstLine="1543"/>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:eastAsia="方正书宋简体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:eastAsia="方正书宋简体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>Fig.1 ***</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:eastAsia="方正书宋简体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="435553BA" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:pStyle w:val="a3"/>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hAnsi="黑体" w:hint="eastAsia"/>
+          <w:b/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hAnsi="黑体" w:hint="eastAsia"/>
+          <w:b/>
+        </w:rPr>
+        <w:t xml:space="preserve">5.3　表的作法 </w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="3B79E38F" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:spacing w:line="280" w:lineRule="exact"/>
+        <w:ind w:firstLine="375"/>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>表格中的数据、文字均用6号宋体，简单的表格应使用三线表，表格宽度也应尽量控制在8</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>cm</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>内。</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="4E1BA862" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:spacing w:line="280" w:lineRule="exact"/>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>5.4　</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t xml:space="preserve">表　注 </w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="1617A3BA" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:spacing w:line="280" w:lineRule="exact"/>
+        <w:ind w:firstLineChars="200" w:firstLine="360"/>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>每个表均需要表注如：</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="23F0CE2B" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:spacing w:line="280" w:lineRule="exact"/>
+        <w:ind w:firstLineChars="600" w:firstLine="1080"/>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>表1 ***实验数据表</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="682218EB" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:spacing w:line="280" w:lineRule="exact"/>
+        <w:ind w:firstLineChars="800" w:firstLine="1440"/>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>Table 1 ***</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="7F22CC47" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:spacing w:line="480" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t xml:space="preserve">6　公　式 </w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="7503C8FC" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:spacing w:line="280" w:lineRule="exact"/>
+        <w:ind w:firstLine="375"/>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>对于文中公式，应用</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>Word</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>公式插入正文，并要求对公式进行编号，编号时请注意，应通篇排号（如式（1）、式（2）…），不应每小节公式独立标号。</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="2D425BDE" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:spacing w:line="480" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t xml:space="preserve">7　特殊字体 </w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="65CB11E9" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:spacing w:line="280" w:lineRule="exact"/>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t xml:space="preserve">7.1　黑　体 </w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="3A7B15AD" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:spacing w:line="280" w:lineRule="exact"/>
+        <w:ind w:firstLine="375"/>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>文中凡出现形如&#x201C;定理1.&#x201D;、&#x201C;定义1.&#x201D;、&#x201C;算法1.&#x201D;、&#x201C;推论1.&#x201D;等内容时，应用黑体，如&#x201C;</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>定理1</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>.&#x201D;。对定理的内容叙述部分，则不再用黑体。若正文中出现类似&#x201C;由定理1可知&#x201D;等内容时，此处的&#x201C;定理&#x201D;，不可用黑体。&#x201C;证明：&#x201D;，也应用黑体。</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="1EFB5542" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:spacing w:line="280" w:lineRule="exact"/>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t xml:space="preserve">7.2　斜　体 </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>(小5号黑)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="2B027C6D" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:spacing w:line="280" w:lineRule="exact"/>
+        <w:ind w:firstLineChars="200" w:firstLine="360"/>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>对于以下情况，可以用斜体：</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="196C24F6" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:spacing w:line="280" w:lineRule="exact"/>
+        <w:ind w:firstLineChars="200" w:firstLine="360"/>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>1. 数学中用字母表示的数及一般函数；</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="64D2B028" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:spacing w:line="280" w:lineRule="exact"/>
+        <w:ind w:left="360"/>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>2. 量符号及量符号中代表量和变动性数字的下脚标符</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="01BCD09E" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:spacing w:line="280" w:lineRule="exact"/>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>号；</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="439BE7F5" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:spacing w:line="280" w:lineRule="exact"/>
+        <w:ind w:firstLine="360"/>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>3. 矢量和张量（黑斜体）。</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="4F1E8270" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:spacing w:line="280" w:lineRule="exact"/>
+        <w:ind w:firstLine="360"/>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>除以上情况外，请慎用斜体。</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="607EEAC3" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:spacing w:line="480" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t xml:space="preserve">8　参考文献 </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>(5号黑)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="00012026" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:spacing w:line="280" w:lineRule="exact"/>
+        <w:ind w:firstLineChars="200" w:firstLine="360"/>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>1.凡用中文表述的参考文献，请给出相对应的英文；</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="463AF519" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:spacing w:line="280" w:lineRule="exact"/>
+        <w:ind w:firstLineChars="200" w:firstLine="360"/>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>2.对于期刊类和会议论文集类的参考文献，请给出期刊的年、卷号、期号、页码范围；</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="5ED988C3" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:spacing w:line="280" w:lineRule="exact"/>
+        <w:ind w:firstLineChars="200" w:firstLine="360"/>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>3.对于书籍类参考文献，请给出出版地、出版社、出版年；</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="5A608FE2" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:spacing w:line="280" w:lineRule="exact"/>
+        <w:ind w:firstLineChars="200" w:firstLine="360"/>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>4.引用的网络参考文献，请给出发布或下载的日期。</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="457CB249" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:spacing w:line="280" w:lineRule="exact"/>
+        <w:ind w:firstLineChars="200" w:firstLine="360"/>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>5.所有参考文献的作者姓名需补充完整，有三个以上作者的参考文献写前三个作者，最后加&#x201C;等&#x201D;。</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="5BD0648C" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531" w:rsidP="00686347">
+      <w:pPr>
+        <w:spacing w:line="280" w:lineRule="exact"/>
+        <w:ind w:firstLineChars="200" w:firstLine="360"/>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:bCs/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:bCs/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>6.对于参考文献中作者姓名，译成英文时，将姓放在前面，其所有字母均大写，名字只大写首字母，两个字之间用空格隔开，如PEI N N (小5书宋)</w:t>
+      </w:r>
+      
+      
+      
+      
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="64AE3A61" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:spacing w:line="280" w:lineRule="exact"/>
+        <w:ind w:firstLineChars="200" w:firstLine="360"/>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+          <w:bCs/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:bCs/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>7.英文参考文献的文章题目首字母大写，其它单词均小写，后面期刊名称、会议名称、书名等出版单位所有单词首字母都要大写。</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="0B028E2F" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:spacing w:line="280" w:lineRule="exact"/>
+        <w:ind w:firstLineChars="200" w:firstLine="360"/>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:bCs/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:bCs/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>8.中、英文参考文献的序号要一致.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="7C15469C" w14:textId="77777777" w:rsidR="009414C5" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:spacing w:line="280" w:lineRule="exact"/>
+        <w:ind w:firstLineChars="200" w:firstLine="360"/>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:bCs/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:bCs/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>9.如果此文献无卷号、期号、页码，则需要补充DOI号。</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="5742CEF3" w14:textId="77777777" w:rsidR="00696531" w:rsidRPr="009414C5" w:rsidRDefault="009414C5" w:rsidP="009414C5">
+      <w:pPr>
+        <w:spacing w:line="280" w:lineRule="exact"/>
+        <w:ind w:firstLineChars="150" w:firstLine="270"/>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:bCs/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:bCs/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t xml:space="preserve">10.参考文献中不可出现破折号，如必须请用冒号代替。 </w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p w14:paraId="390A18EB" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:spacing w:line="480" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t xml:space="preserve">9　标题说明 </w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="536AC4A3" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:pStyle w:val="a3"/>
+        <w:ind w:firstLineChars="200" w:firstLine="360"/>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>文章可用一、二、三级标题，本例文中，用到了一（如本节的标题，就是一级标题）、二级标题（如第7节又分了</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体"/>
+        </w:rPr>
+        <w:t>7.1</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>和7.2两小节）。作者在写文章时，如有需要，可用三级标题，具体格式举例说明如下：</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="4206962E" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:pStyle w:val="a3"/>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>7.1.1　三级标题</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="11BC2AF2" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:pStyle w:val="a3"/>
+        <w:ind w:firstLine="360"/>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>对于三级标题，字体应用楷体，字号同正文相同，用小5号。</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="7AC83D48" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:spacing w:line="480" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hint="eastAsia"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>10　说  明</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="6EE3FC46" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:pStyle w:val="a3"/>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t xml:space="preserve">    以上各节系对文中涉及内容的格式、要求上的详细说明，并非要求第1节写&#x201C;作者&#x201D;，第2节写&#x201C;基金项目&#x201D;，第3节写&#x201C;文章摘要&#x201D;，第4节写&#x201C;正文&#x201D;</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体"/>
+        </w:rPr>
+        <w:t>……</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>，也可参考我刊网站已发表的文章，特此说明。</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="3B51F2DB" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>References:</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> (小5黑)（例子）</w:t>
+      </w:r>
+      
+      
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="51DE84EA" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:spacing w:line="280" w:lineRule="atLeast"/>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>[ 1 ] X</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>ING</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> M,X</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>ING</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> M,X</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>ING</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> M</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> M,</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t xml:space="preserve">et al.Title [J]. </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>Journal of Chinese Computer Systems</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>,2005,26(1):</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>1</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>-</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>15</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>.</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>(小5号)</w:t>
+      </w:r>
+      
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="609DD82D" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:spacing w:line="280" w:lineRule="atLeast"/>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>[ 2 ]</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> XING</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> M,X</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>ING</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> M,X</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>ING</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> M</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> M,</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>et al.Title[</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>M</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t xml:space="preserve">]. </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>S</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>henyang:** Press, 2005.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="227B2804" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="0035106B">
+      <w:pPr>
+        <w:spacing w:line="280" w:lineRule="atLeast"/>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>[ 3 ] X</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>ING</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> M,X</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>ING</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> M,X</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>ING</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> M</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> M,</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>et al.</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>A</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t xml:space="preserve">rticle </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>t</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>itle [</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>C</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>]</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>//</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>Proceedings of **,2005</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>:</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>page-page.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="69BAE9FB" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="0035106B">
+      <w:pPr>
+        <w:spacing w:line="280" w:lineRule="atLeast"/>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>[ 4 ] X</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>ING</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> M.Title[D].</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>Shenyang:**</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>University,2005.</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>（学位论文）</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="42AF3BCB" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="0035106B">
+      <w:pPr>
+        <w:spacing w:line="280" w:lineRule="atLeast"/>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>[ 5 ] X</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>ING</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> M.Title[R].Report Number,Shenyang:** Preer, 2005.</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>（技术报告）</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="5795AD04" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:spacing w:line="280" w:lineRule="atLeast"/>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体"/>
+          <w:spacing w:val="11"/>
+          <w:kern w:val="0"/>
+          <w:sz w:val="18"/>
+          <w:fitText w:val="346" w:id="-614773248"/>
+        </w:rPr>
+        <w:t xml:space="preserve">[ 6 </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体"/>
+          <w:spacing w:val="2"/>
+          <w:kern w:val="0"/>
+          <w:sz w:val="18"/>
+          <w:fitText w:val="346" w:id="-614773248"/>
+        </w:rPr>
+        <w:t>]</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体" w:hint="eastAsia"/>
+          <w:kern w:val="10"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:tab/>
+        <w:t>IONA Technologies.Web services definition</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>［EB/OL］.http://www.w3.org/2001/03/WSWS</w:t>
+      </w:r>
+      
+      
+      
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hAnsi="黑体" w:cs="黑体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="方正书宋简体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>popa/paper13.  2001 .（网络文献）</w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p w14:paraId="241B5D3A" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:eastAsia="黑体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="黑体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>附中文参考文献：(小5黑) (请</w:t>
+      </w:r>
+      
+      
+      
+      
+      
+      
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>给出相应的英文译文。)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="48D44DB1" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:spacing w:line="280" w:lineRule="exact"/>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t xml:space="preserve">[ 1 ] </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>作者一，作者二，作者三,等.文章题目</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>[</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>J</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>]</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>.期刊名称，出版年，卷号（期号）：起始页码</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>-</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>终止页码.(小5号书宋)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="13B54E0E" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:spacing w:line="280" w:lineRule="exact"/>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t xml:space="preserve">[ 2 ] </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>作者一，作者二，作者三,等.书名（版次，初版不用注明）</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>[</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>M</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>]</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>.城市名：出版社，出版年.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="2D801EE4" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:spacing w:line="280" w:lineRule="exact"/>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t xml:space="preserve">[ 3 ] </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>作者一，作者二，作者三,等.文章题目</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>[</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>C</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>]</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>//会议论文集完整名称,召开年:起始页</w:t>
+      </w:r>
+      
+      
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>-</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>终止页.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="272DE653" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:spacing w:line="280" w:lineRule="exact"/>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t xml:space="preserve">[ 4 ] </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>作者.题目</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>[</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>D</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>]</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>.城市名：学位授予单位，出版年.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="26E9BB4C" w14:textId="77777777" w:rsidR="00696531" w:rsidRDefault="00696531">
+      <w:pPr>
+        <w:spacing w:line="280" w:lineRule="exact"/>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t xml:space="preserve">[ 5 ] </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>作者.题目</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>[</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>R</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>]</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>.技术报告编号，出版地：出版社，出版年</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>.</w:t>
+      </w:r>
+    </w:p>
+    <w:sectPr w:rsidR="00696531">
+      <w:type w:val="continuous"/>
+      <w:pgSz w:w="11906" w:h="16838"/>
+      <w:pgMar w:top="1134" w:right="1134" w:bottom="1134" w:left="1134" w:header="851" w:footer="992" w:gutter="0"/>
+      <w:cols w:num="2" w:space="425" w:equalWidth="0">
+        <w:col w:w="4606" w:space="425"/>
+        <w:col w:w="4606"/>
+      </w:cols>
+      <w:titlePg/>
+      <w:docGrid w:type="lines" w:linePitch="312"/>
+    </w:sectPr>
+  </w:body>
+</w:document>
