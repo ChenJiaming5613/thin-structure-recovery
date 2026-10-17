@@ -429,7 +429,7 @@ def sample_colors(scene, xyz, ref, px):
     return rgb
 
 
-def main():
+def build_parser():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("-s", "--scene", required=True, help="scene dir containing images/ and sparse/0/")
     ap.add_argument("--images", default="images")
@@ -488,12 +488,18 @@ def main():
     ap.add_argument("--spacing_k", type=int, default=6, help="k for the local COLMAP spacing estimate")
     ap.add_argument("--voxel", type=float, default=0.01)
     ap.add_argument("--max_line_samples", type=int, default=3000)
+    ap.add_argument("--det_max_halfwidth", type=float, default=0.0,
+                    help="2D detection: also keep thin but non-elongated components, e.g. crossing wires (px; 0=off)")
     ap.add_argument("--blob", type=int, default=1, help="use blob candidates (1/0)")
     ap.add_argument("--seed", type=int, default=0)
     ap.add_argument("--reuse_raw", action="store_true", help="skip the sweep and re-run only post filtering")
     ap.add_argument("--install", action="store_true",
                     help="also write merged cloud to sparse/0/points3D.ply (old one backed up)")
-    args = ap.parse_args()
+    return ap
+
+
+def main():
+    args = build_parser().parse_args()
 
     out = args.out or os.path.join(args.scene, "thin_init")
     os.makedirs(out, exist_ok=True)
@@ -503,7 +509,8 @@ def main():
     ids = common.parse_frames(args.frames, len(views))
     print(f"scene: {len(views)} views ({W}x{H}), {len(scene['xyz'])} COLMAP points, using {len(ids)} frames")
 
-    feats = load_or_detect(scene, views, ids, os.path.join(out, "cache"), {}, args.max_line_samples, args.seed)
+    det_cfg = dict(max_halfwidth=args.det_max_halfwidth)
+    feats = load_or_detect(scene, views, ids, os.path.join(out, "cache"), det_cfg, args.max_line_samples, args.seed)
     if not args.blob:
         for i in ids:
             feats[i]["blob_xy"] = feats[i]["blob_xy"][:0]

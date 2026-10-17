@@ -23,6 +23,7 @@ DEFAULTS = dict(
     support_pct=85.0,
     edge_suppress=0,
     local_norm=0.0,
+    max_halfwidth=0.0,
 )
 
 
@@ -103,7 +104,10 @@ def hysteresis(resp, lo, hi):
     return keep[lab]
 
 
-def filter_components(mask, min_len, min_elong):
+def filter_components(mask, min_len, min_elong, max_halfwidth=0.0):
+    """Keep long, elongated components. max_halfwidth > 0 also keeps long components that are not
+    elongated as a whole but are thin everywhere (max half-width <= max_halfwidth px), e.g. several
+    wires crossing each other, which the elongation test (PCA of the whole component) rejects."""
     lab, n = ndi.label(mask, structure=np.ones((3, 3)))
     out = np.zeros_like(mask)
     if n == 0:
@@ -121,7 +125,10 @@ def filter_components(mask, min_len, min_elong):
         ev = np.linalg.eigvalsh(np.cov(pts.T) + 1e-6 * np.eye(2))
         length = 4 * np.sqrt(ev[1])
         elong = np.sqrt(ev[1] / ev[0])
-        if length >= min_len and elong >= min_elong:
+        keep = length >= min_len and elong >= min_elong
+        if not keep and max_halfwidth > 0 and length >= min_len:
+            keep = ndi.distance_transform_edt(np.pad(sub, 1)).max() <= max_halfwidth
+        if keep:
             out[sl][sub] = True
     return out
 
@@ -163,7 +170,7 @@ def detect(gray, **cfg):
         coh.append(e)
         hi, lo = np.percentile(e, c["hi_pct"]), np.percentile(e, c["lo_pct"])
         m = hysteresis(e, lo, hi)
-        masks.append(filter_components(m, c["min_len"], c["min_elong"]))
+        masks.append(filter_components(m, c["min_len"], c["min_elong"], c["max_halfwidth"]))
 
     bxs, bys = detect_blobs(blob, np.percentile(blob, c["blob_pct"]), min_dist=3, max_size=3)
     return dict(
@@ -209,6 +216,7 @@ def main():
     ap.add_argument("--support_pct", type=float, help="raw ridge percentile a pixel must exceed")
     ap.add_argument("--edge_suppress", type=int, help="window (px) for bright/dark pair suppression; 0=off")
     ap.add_argument("--local_norm", type=float, help="sigma (px) of local contrast normalisation; 0=off")
+    ap.add_argument("--max_halfwidth", type=float, help="keep non-elongated but thin components (crossing wires); 0=off")
     ap.add_argument("--crop", type=int, nargs=4, default=None, help="x0 y0 x1 y1 for zoomed view")
     args = ap.parse_args()
 
